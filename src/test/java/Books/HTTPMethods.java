@@ -84,6 +84,7 @@ public class HTTPMethods {
         Response response = RestAssured.given().
                 contentType(ContentType.JSON)
                 .accept("application/json")
+                .auth().basic("admin","password123")
                 .body("{\n" +
                         "    \"firstname\" : \"AhmetBal\",\n" +
                         "    \"lastname\" : \"Baldir\",\n" +
