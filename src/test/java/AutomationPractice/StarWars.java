@@ -54,5 +54,6 @@ public class StarWars {
         Assertions.assertEquals("arid",deserialedPlanetsInformation.getClimate());
         Assertions.assertEquals("desert",deserialedPlanetsInformation.getTerrain());
 
+
     }
 }
